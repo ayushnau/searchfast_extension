@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>serachfast</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        div {
+            width: 300px;
+        }
+        .forspace{
+            margin:0 3px;
+        }
+        .red{
+            color: red;
+        }
+        .blue{
+            margin: 0 2px;
+            color: rgb(39, 39, 187);
+        }
+        .box1,.box2{
+            margin: 3px 0;
+        }
+        input{
+            border-radius: 100px;
+            border: 0;
+            padding: 10px;
+            width: 200px;
+            height: 28px;
+            transition: 1s;
+            box-shadow: 3px 3px grey;
+        }
+        input:hover{
+    
+            width: 250px;
+        }
+    </style>
+</head>
+
+<body>
+    <div">
+            <h2 style="margin-left: 30px;">Search:</h2>
+            <div>
+                <div class="box1"><span class="forspace"><i class="red fab fa-youtube fa-lg"></i></span><input placeholder="youtube" id="select" type="text"></div>
+                <div class="box2"><span class="forspace"><i class="blue fab fa-google fa-lg"></i></span><input placeholder="goggle" id="selectgoogle" type="text"></div>
+            </div>
+    </div>
+</body>
+<script src="popupscript.js"></script>
+</html>
